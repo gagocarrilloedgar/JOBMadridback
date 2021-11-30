@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "noEmit": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./build",
+    "baseUrl": "./src" /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "src/*": ["src/*"]
+    },
+    "sourceRoot": "./src",
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"],
+  "lib": ["es2021"]
+}
